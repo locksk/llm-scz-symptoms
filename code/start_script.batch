@@ -1,0 +1,36 @@
+#!/bin/bash
+
+#SBATCH --job-name=symptom_extract
+#SBATCH --output=%x.%j.out
+#SBATCH --gpus=1  # this allocates 72 CPU cores
+#SBATCH --ntasks=1
+#SBATCH --time=3:00:00
+
+# Check if model_name argument is provided
+if [ $# -eq 0 ]; then
+    echo "Error: No model name provided"
+    echo "Usage: $1 <model_name>"
+    exit 1
+fi
+
+
+start=`date +%s`
+
+srun --gpus=1 --time=3:00:00 --pty /bin/bash --login
+
+module load cray-python/3.11.7
+
+source ../.venv/bin/activate
+
+export HF_HOME=/projects/u6cn/public/hf
+export HF_TOKEN="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+
+python3 scripts/symptom_extraction.py $1 $2
+
+end=`date +%s`
+
+seconds=$((end-start))
+
+ELAPSED="Elapsed: $(($seconds / 3600))hrs $((($seconds / 60) % 60))min $(($seconds % 60))sec"
+
+echo "$ELAPSED"
