@@ -1,0 +1,129 @@
+﻿Symptom,Description,abrex_1,abrex_2,abrex_3,abrex_4,abrex_5,abrat_1,abrat_2,abrat_3,abrat_4,abrat_5
+Hallucinations,"HALLUCINATIONS refer to perceptual experiences occurring without external stimuli. Ensure that ONLY false perceptions are rated as hallucinations, not false thoughts or beliefs.
+
+INCLUDE the following when documented in clinical notes:
+- Auditory hallucinations (AH): Patient reports hearing voices, sounds, or noises not heard by others. Common presentations include: voices commenting on patient's actions or thoughts, two or more voices conversing, command hallucinations or voices giving instructions, and documentation phrases such as ""patient reports hearing voices"", ""AH present"", ""responding to internal stimuli"", ""observed talking to self when alone"".
+- Visual hallucinations (VH): Patient reports seeing figures, shapes, shadows, or people not visible to others
+- Olfactory hallucinations: Patient reports smelling odours others cannot detect, or believes they emit odours despite reassurance
+- Gustatory hallucinations: Patient reports unusual tastes without corresponding stimuli
+- Tactile/somatic hallucinations: Patient reports physical sensations (crawling, burning, being touched) without cause
+
+EXCLUDE the following:
+- Pseudohallucinations (patient recognises experiences as internally generated, often documented as ""patient acknowledges voices are not real"")
+- Illusions (misperceptions of real stimuli, e.g., mistaking a coat for a person)     
+- Hypnagogic/hypnopompic experiences (hallucinations when falling asleep or waking)   
+- Flashbacks explicitly attributed to PTSD/trauma
+- Hallucinations explicitly attributed to substance intoxication/withdrawal in that specific episode
+- Dreams or nightmares
+- Intrusive thoughts (unless experienced as external voices)",excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,1 / 0,1 / 0,1 / 0,1 / 0,1 / 0
+Delusions,"DELUSIONS are fixed, false beliefs maintained despite contradictory evidence. These beliefs should be firmly held, fixed, and complex.
+
+INCLUDE the following when documented in clinical notes:
+- Persecutory/paranoid delusions: Belief of being harassed, followed, poisoned, spied upon, or conspired against
+  - Documentation phrases: ""paranoid ideation"", ""believes neighbours are monitoring him"", ""persecutory beliefs""
+- Grandiose delusions: Inflated sense of power, knowledge, identity, or special relationship to deity/famous person
+- Delusions of reference: Belief that events, objects, or people have particular personal significance (e.g., TV sending messages)
+- Delusions of control/passivity: Belief that thoughts, feelings, or actions are controlled by external force
+- Thought broadcasting: Belief that thoughts can be heard by others
+- Thought insertion: Belief that thoughts are placed in one's mind by external source 
+- Thought withdrawal: Belief that thoughts are being removed
+- Somatic delusions: False beliefs about body (e.g., organs rotting, infested with parasites) NOT explained by medical condition
+- Delusions of jealousy: Unfounded conviction of partner's infidelity
+- Nihilistic delusions: Belief that self, others, or world does not exist or is ending
+- Religious delusions: Delusions with religious content beyond cultural norms (e.g., being a prophet, special mission from God)
+
+EXCLUDE the following:
+- Overvalued ideas (strongly held beliefs that are amenable to reason)
+- Suspiciousness that is proportionate to circumstances (e.g., genuine persecution, realistic concerns)
+- Culturally normative beliefs (consider patient's religious/cultural context)        
+- Beliefs explicitly documented as ""insight intact"" or ""patient recognises beliefs were delusional""
+- Confabulation in context of documented memory impairment
+- Misidentification due to dementia or delirium
+- Fleeting thoughts or paranoia for example, the belief that everyone is talking about them without knowing who or why.
+- False perceptions",excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,1 / 0,1 / 0,1 / 0,1 / 0,1 / 0
+Positive Formal Thought Disorder,"POSITIVE FORMAL THOUGHT DISORDER refers to disorganisation in the form (not content) of thinking, as manifested in speech and documented by clinical observations or direct quotes. For a rating of positive formal thought disorder, at least one of the following symptoms must be present: derailment, tangentiality, incoherence, illogicality, circumstantiality, or pressure of speech. A mention of disorientation alone is not sufficient to rate positive formal thought disorder as present. Additionally, lack of insight into one's disorder is not evidence of positive formal thought disorder.
+
+INCLUDE the following when documented in clinical notes:
+- Derailment/loose associations: Ideas slip from one track to another with little or no connection
+  - Documentation phrases: ""loosening of associations"" ""LOA"" ""tangential speech"" ""thought disordered""
+- Tangentiality: Replies to questions that are oblique or irrelevant
+- Incoherence/word salad: Speech that is incomprehensible due to lack of logical connection
+  - Documentation phrases: ""incoherent speech"" ""word salad"" ""incomprehensible""      
+- Illogicality: Conclusions reached that do not follow logically
+- Circumstantiality: Speech that is delayed in reaching the point due to excessive unnecessary detail (but eventually reaches it)
+- Pressure of speech: Rapid, excessive speech that is difficult to interrupt
+  - Documentation phrases: ""pressured speech"" 
+- Clanging: Speech guided by sound rather than meaning
+- Neologisms: Made-up words or phrases
+
+EXCLUDE the following:
+- Disorganised speech due to aphasia, dysarthria, or other neurological conditions    
+- Speech abnormalities attributed to intellectual disability
+- Disorganisation explicitly attributed to intoxication or delirium
+- Circumstantiality alone without other features (common in anxiety, mania) or just the term ""flight of ideas""
+- Non-native English speaker with language difficulties
+- Normal disfluencies or difficulty finding words
+- Descriptions of delusions (e.g., thought insertion and thought withdrawal) and bizarre behaviour",excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,1 / 0,1 / 0,1 / 0,1 / 0,1 / 0
+Bizarre behaviour,"BIZARRE BEHAVIOUR refers to clearly unusual, bizarre or odd behaviour.
+
+INCLUDE the following when documented in clinical notes:
+- Unusual appearance/dress: Bizarre clothing choices, inappropriate dress for weather/context, unusual makeup or adornments
+- Odd social or sexual behaviour: Socially inappropriate actions, violation of social norms not due to ignorance
+- Stereotyped behaviour: Repetitive, non-functional movements or rituals
+- Aggressive/agitated behaviour: When bizarre in nature or grossly disproportionate to circumstances or unprovoked
+- Odd ritualistic behaviour: Unusual routines or behaviours with no clear purpose
+- Responding to hallucinations
+
+EXCLUDE the following:
+- Behaviour directly attributable to substance intoxication or withdrawal
+- Agitation or aggression with clear precipitant and proportionate response
+- Poor self-care due to depression or negative symptoms (rate under avolition/apathy) 
+- The term ""bizarre"" in the context of other types of symptoms (e.g., bizarre delusions)",excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,1 / 0,1 / 0,1 / 0,1 / 0,1 / 0
+Affective flattening,"AFFECTIVE FLATTENING (also termed blunted affect or flat affect) refers to a reduction in the range and intensity of emotional expression. Affective flattening relates to reduced emotional expression not reduced emotional experience (i.e., flat mood).
+
+INCLUDE the following when documented in clinical notes:
+- Reduced facial expressivity: Unchanging facial expression, reduced emotional display
+  - Documentation phrases: ""flat affect"" ""blunted affect"" ""restricted affect"" ""reduced affective range""
+- Decreased spontaneous movement: Sits motionless, reduced gestures during conversation
+- Poor eye contact: Avoids or fails to make eye contact (when not culturally normative)
+- Affective non-responsivity: Fails to respond emotionally to emotionally evocative material
+- Inappropriate affect: Emotional display incongruent with content (e.g., laughing when discussing sad events)
+  - Documentation phrases: ""inappropriate affect"" ""incongruent affect""
+- Reduced vocal inflection: Monotone speech, lack of prosody
+  - Documentation phrases: ""monotonous speech"" ""lacks vocal inflection""
+
+EXCLUDE the following:
+- Depressed affect (sadness, tearfulness) - this is restricted but not flat
+- Affect abnormalities explicitly attributed to medication side effects (e.g., antipsychotic-induced)
+- Affect restricted to clinical interview in context of suspiciousness/paranoia",excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,1 / 0,1 / 0,1 / 0,1 / 0,1 / 0
+Alogia,"ALOGIA refers to a reduction in the quantity or content of speech.
+INCLUDE the following when documented in clinical notes:
+- Poverty of speech: Reduced amount of spontaneous speech, brief/unelaborated responses
+- Poverty of content: Speech is adequate in amount but conveys little information, vague, overly abstract or concrete
+- Increased latency of response: Long delays before responding to questions
+- Blocking: Sudden interruption in train of thought, patient cannot recall what they were saying
+
+EXCLUDE the following:
+- Mutism (Alogia is a reduction in the amount of speech rather than a complete loss of speech).
+- Lack of vocal inflection or tone     ",excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,1 / 0,1 / 0,1 / 0,1 / 0,1 / 0
+Avolition and apathy,"AVOLITION AND APATHY refers to reduced motivation and drive to initiate and persist in goal-directed activities.        
+
+INCLUDE the following when documented in clinical notes:
+- Physical anergia: Lack of energy, tends to sit for long periods, sleeps excessively during day
+- Poor grooming and hygiene: Does not bathe, change clothes, or attend to personal care
+- Impersistence at work/school: Cannot maintain employment or educational activities, drops out
+
+EXCLUDE the following:
+- Anergia explicitly attributed to depression",excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,1 / 0,1 / 0,1 / 0,1 / 0,1 / 0
+Anhedonia and asociality,"ANHEDONIA AND ASOCIALITY refer to reduced ability to experience pleasure and reduced social drive. This is seen as a lack of interest in relationships.
+
+INCLUDE the following when documented in clinical notes:
+- Reduced social relationships: Few or no friends, does not seek social contact, socially isolated
+- Reduced interest in relationships: Does not desire friendships or intimate relationships
+- Inability to feel intimacy/closeness: Feels distant from family and friends despite contact
+- Reduced recreational interests: Previously enjoyed activities no longer provide pleasure 
+- Reduced sexual interest: Decreased libido or interest in sexual activity (consider age-appropriateness)
+- Social withdrawal: Spends most time alone, avoids social situations
+
+EXCLUDE the following:
+- Problems with appearance and hygiene or bizarre behaviour",excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,excerpt from case note that may or may not contain evidence of symptom,1 / 0,1 / 0,1 / 0,1 / 0,1 / 0
