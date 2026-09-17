@@ -13,8 +13,7 @@ The scripts used for LLM inference make use of [*huggingface*](https://huggingfa
 <br>
 
 #### PLM_inference
-* insert text here
-* insert text here
+* this directory contains its own readme file, with detailed documentation for this part of the study. 
 
 <br>
 
@@ -35,6 +34,8 @@ The scripts used for LLM inference make use of [*huggingface*](https://huggingfa
 
 ### Contributors
 Code written by Siobhan Lock, Yuefeng Shi, and Joanne Boisson. 
+
+<br>
 
 ### Acknowledgements
 This work was funded by a PhD studentship from Mental Health Research UK and a MEXA accelerator grant (?). 
