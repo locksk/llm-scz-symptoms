@@ -1,0 +1,28 @@
+{
+  "release_kind": "portable",
+  "seed": 42,
+  "text_column": "Case_note_summary",
+  "labels": [
+    "SAPS_Global_Hals",
+    "SAPS_Global_Delusions",
+    "SAPS_Global_Positive_Thought_Disorder",
+    "SAPS_Global_Bizarre_Behaviour",
+    "SANS_Global_Affective_Flattening",
+    "SANS_Global_Alogia",
+    "SANS_Global_Avolition_Apathy",
+    "SANS_Global_Anhedonia_Asociality"
+  ],
+  "schemes": ["Scheme_1_S1_Train", "Scheme_2_S1_ValTest"],
+  "models": {
+    "mental/mental-bert-base-uncased": {"branch": "standard", "max_length": 512, "max_chunks": 8, "train_batch_size": 1, "eval_batch_size": 1, "gradient_accumulation_steps": 16, "tokenizer_use_fast": true},
+    "AIMH/mental-bert-large-uncased": {"branch": "standard", "max_length": 512, "max_chunks": 8, "train_batch_size": 1, "eval_batch_size": 1, "gradient_accumulation_steps": 32, "tokenizer_use_fast": true},
+    "UFNLP/gatortron-base": {"branch": "standard", "max_length": 512, "max_chunks": 8, "train_batch_size": 1, "eval_batch_size": 1, "gradient_accumulation_steps": 16, "tokenizer_use_fast": true},
+    "AIMH/mental-longformer-base-4096": {"branch": "long_context", "max_length": 4096, "max_chunks": 1, "train_batch_size": 1, "eval_batch_size": 1, "gradient_accumulation_steps": 64, "tokenizer_use_fast": true},
+    "google/bigbird-roberta-large": {"branch": "long_context", "max_length": 4096, "max_chunks": 1, "train_batch_size": 1, "eval_batch_size": 1, "gradient_accumulation_steps": 64, "tokenizer_use_fast": false}
+  },
+  "training": {"defaults": {"learning_rate": 0.00002, "num_train_epochs": 5, "warmup_ratio": 0.0, "weight_decay": 0.01}},
+  "threshold": {"start": 0.1, "stop": 0.95, "step": 0.05},
+  "bootstrap": {"n_resamples": 1000, "seed": 42, "lower": 0.025, "upper": 0.975},
+  "round_digits": 4
+}
+

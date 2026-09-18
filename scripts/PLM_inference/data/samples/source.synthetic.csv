@@ -1,0 +1,14 @@
+Study_ID,Case_note_summary,SAPS_Global_Hals,SAPS_Global_Delusions,SAPS_Global_Positive_Thought_Disorder,SAPS_Global_Bizarre_Behaviour,SANS_Global_Affective_Flattening,SANS_Global_Alogia,SANS_Global_Avolition_Apathy,SANS_Global_Anhedonia_Asociality
+" syn-001 ","Entirely synthetic narrative one.",1,0,1,0,1,0,1,0
+SYN-001,"Synthetic duplicate that should be ignored.",0,1,0,1,0,1,0,1
+SYN-002,"Entirely synthetic narrative two.",0,1,0,1,0,1,0,1
+syn-003,"Entirely synthetic narrative three.",1,1,0,0,1,1,0,0
+SYN-004,"Entirely synthetic narrative four.",0,0,1,1,0,0,1,1
+SYN-005,"Entirely synthetic narrative five.",1,0,0,1,1,0,0,1
+SYN-006,"Entirely synthetic narrative six.",0,1,1,0,0,1,1,0
+SYN-007,"Entirely synthetic narrative seven.",1,1,1,0,0,0,1,0
+SYN-008,"Entirely synthetic narrative eight.",0,0,0,1,1,1,0,1
+SYN-009,"Entirely synthetic narrative nine.",1,0,1,0,1,0,1,
+SYN-010,"Entirely synthetic narrative ten.",0,1,0,1,0,1,0,1
+SYN-011,"Entirely synthetic narrative eleven.",1,1,0,0,1,1,0,0
+SYN-012,"Entirely synthetic narrative twelve.",0,0,1,1,0,0,1,1

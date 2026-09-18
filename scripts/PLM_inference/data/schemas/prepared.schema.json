@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prepared split CSV row",
+  "allOf": [
+    {"$ref": "source.schema.json"},
+    {
+      "type": "object",
+      "required": ["sumstrat"],
+      "properties": {"sumstrat": {"type": "string", "minLength": 1}}
+    }
+  ]
+}

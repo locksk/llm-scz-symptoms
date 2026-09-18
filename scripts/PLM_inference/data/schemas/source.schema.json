@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Summarized and labelled source CSV row",
+  "type": "object",
+  "required": [
+    "Study_ID",
+    "Case_note_summary",
+    "SAPS_Global_Hals",
+    "SAPS_Global_Delusions",
+    "SAPS_Global_Positive_Thought_Disorder",
+    "SAPS_Global_Bizarre_Behaviour",
+    "SANS_Global_Affective_Flattening",
+    "SANS_Global_Alogia",
+    "SANS_Global_Avolition_Apathy",
+    "SANS_Global_Anhedonia_Asociality"
+  ],
+  "properties": {
+    "Study_ID": {"type": "string", "minLength": 1},
+    "Case_note_summary": {"type": "string"},
+    "SAPS_Global_Hals": {"type": ["integer", "null"], "enum": [0, 1, null]},
+    "SAPS_Global_Delusions": {"type": ["integer", "null"], "enum": [0, 1, null]},
+    "SAPS_Global_Positive_Thought_Disorder": {"type": ["integer", "null"], "enum": [0, 1, null]},
+    "SAPS_Global_Bizarre_Behaviour": {"type": ["integer", "null"], "enum": [0, 1, null]},
+    "SANS_Global_Affective_Flattening": {"type": ["integer", "null"], "enum": [0, 1, null]},
+    "SANS_Global_Alogia": {"type": ["integer", "null"], "enum": [0, 1, null]},
+    "SANS_Global_Avolition_Apathy": {"type": ["integer", "null"], "enum": [0, 1, null]},
+    "SANS_Global_Anhedonia_Asociality": {"type": ["integer", "null"], "enum": [0, 1, null]}
+  },
+  "additionalProperties": true
+}

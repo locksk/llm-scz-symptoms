@@ -1,0 +1,24 @@
+{
+  "release_kind": "smoke",
+  "seed": 42,
+  "text_column": "Case_note_summary",
+  "labels": [
+    "SAPS_Global_Hals",
+    "SAPS_Global_Delusions",
+    "SAPS_Global_Positive_Thought_Disorder",
+    "SAPS_Global_Bizarre_Behaviour",
+    "SANS_Global_Affective_Flattening",
+    "SANS_Global_Alogia",
+    "SANS_Global_Avolition_Apathy",
+    "SANS_Global_Anhedonia_Asociality"
+  ],
+  "schemes": ["Scheme_1_S1_Train", "Scheme_2_S1_ValTest"],
+  "models": {
+    "mental/mental-bert-base-uncased": {"branch": "standard", "max_length": 64, "max_chunks": 2, "train_batch_size": 1, "eval_batch_size": 1, "gradient_accumulation_steps": 1, "tokenizer_use_fast": true}
+  },
+  "training": {"defaults": {"learning_rate": 0.00002, "num_train_epochs": 1, "warmup_ratio": 0.0, "weight_decay": 0.01}},
+  "threshold": {"start": 0.1, "stop": 0.95, "step": 0.05},
+  "bootstrap": {"n_resamples": 100, "seed": 42, "lower": 0.025, "upper": 0.975},
+  "round_digits": 4
+}
+

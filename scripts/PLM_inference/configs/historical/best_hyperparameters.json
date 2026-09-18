@@ -1,0 +1,107 @@
+{
+  "Scheme_1_S1_Train": {
+    "mental/mental-bert-base-uncased": {
+      "SAPS_Global_Hals": {"gradient_accumulation_steps": 64, "learning_rate": 0.000020447731676703914, "num_train_epochs": 4, "warmup_ratio": 0.16585911488013402, "weight_decay": 0.11748782212540852},
+      "SAPS_Global_Delusions": {"gradient_accumulation_steps": 64, "learning_rate": 0.00002420590821600075, "num_train_epochs": 4, "warmup_ratio": 0.19944416608323287, "weight_decay": 0.13656624618556015},
+      "SAPS_Global_Positive_Thought_Disorder": {"gradient_accumulation_steps": 64, "learning_rate": 0.00009067836282074037, "num_train_epochs": 3, "warmup_ratio": 0.16274455089915368, "weight_decay": 0.13079241756494825},
+      "SAPS_Global_Bizarre_Behaviour": {"gradient_accumulation_steps": 16, "learning_rate": 0.00006222262711262844, "num_train_epochs": 15, "warmup_ratio": 0.1166696546426167, "weight_decay": 0.14946009546613645},
+      "SANS_Global_Affective_Flattening": {"gradient_accumulation_steps": 32, "learning_rate": 0.00002556979383816843, "num_train_epochs": 4, "warmup_ratio": 0.17656454339383212, "weight_decay": 0.11155985797498916},
+      "SANS_Global_Alogia": {"gradient_accumulation_steps": 16, "learning_rate": 0.00007732204511982058, "num_train_epochs": 13, "warmup_ratio": 0.1427368969417859, "weight_decay": 0.022662358488385933},
+      "SANS_Global_Avolition_Apathy": {"gradient_accumulation_steps": 16, "learning_rate": 0.00009567387649355099, "num_train_epochs": 9, "warmup_ratio": 0.1756567083911148, "weight_decay": 0.06769396478693313},
+      "SANS_Global_Anhedonia_Asociality": {"gradient_accumulation_steps": 64, "learning_rate": 0.00007141742438285195, "num_train_epochs": 6, "warmup_ratio": 0.13755065487878507, "weight_decay": 0.12694541619443653}
+    },
+    "AIMH/mental-bert-large-uncased": {
+      "SAPS_Global_Hals": {"gradient_accumulation_steps": 16, "learning_rate": 0.00003652912909664449, "num_train_epochs": 10, "warmup_ratio": 0.1628392819866491, "weight_decay": 0.13014799676451877},
+      "SAPS_Global_Delusions": {"gradient_accumulation_steps": 16, "learning_rate": 0.000016731309303275578, "num_train_epochs": 15, "warmup_ratio": 0.19808513538880845, "weight_decay": 0.011809361936644575},
+      "SAPS_Global_Positive_Thought_Disorder": {"gradient_accumulation_steps": 16, "learning_rate": 0.00006765693077838482, "num_train_epochs": 9, "warmup_ratio": 0.15970587010119913, "weight_decay": 0.051470022569438584},
+      "SAPS_Global_Bizarre_Behaviour": {"gradient_accumulation_steps": 16, "learning_rate": 0.000008397380546107199, "num_train_epochs": 14, "warmup_ratio": 0.13834244826334785, "weight_decay": 0.037641341503147234},
+      "SANS_Global_Affective_Flattening": {"gradient_accumulation_steps": 32, "learning_rate": 0.000036509181083948975, "num_train_epochs": 6, "warmup_ratio": 0.13621605003389903, "weight_decay": 0.06290913622797689},
+      "SANS_Global_Alogia": {"gradient_accumulation_steps": 32, "learning_rate": 0.000009443971782203314, "num_train_epochs": 7, "warmup_ratio": 0.12719110758650068, "weight_decay": 0.10907480419095308},
+      "SANS_Global_Avolition_Apathy": {"gradient_accumulation_steps": 16, "learning_rate": 0.00004198242961881327, "num_train_epochs": 12, "warmup_ratio": 0.16181259460630065, "weight_decay": 0.06830368352422354},
+      "SANS_Global_Anhedonia_Asociality": {"gradient_accumulation_steps": 32, "learning_rate": 0.00003406501902457418, "num_train_epochs": 11, "warmup_ratio": 0.12495942758935755, "weight_decay": 0.05793239246867406}
+    },
+    "UFNLP/gatortron-base": {
+      "SAPS_Global_Hals": {"gradient_accumulation_steps": 16, "learning_rate": 0.000011099554107002657, "num_train_epochs": 7, "warmup_ratio": 0.17724153900558925, "weight_decay": 0.14518582904328795},
+      "SAPS_Global_Delusions": {"gradient_accumulation_steps": 16, "learning_rate": 0.00006108207347606479, "num_train_epochs": 13, "warmup_ratio": 0.13809764398741536, "weight_decay": 0.12129611233678227},
+      "SAPS_Global_Positive_Thought_Disorder": {"gradient_accumulation_steps": 16, "learning_rate": 0.00004579856988445725, "num_train_epochs": 11, "warmup_ratio": 0.16692285044447613, "weight_decay": 0.14503315986769313},
+      "SAPS_Global_Bizarre_Behaviour": {"gradient_accumulation_steps": 16, "learning_rate": 0.00003310682261149176, "num_train_epochs": 11, "warmup_ratio": 0.1981631196520071, "weight_decay": 0.13948218018047998},
+      "SANS_Global_Affective_Flattening": {"gradient_accumulation_steps": 64, "learning_rate": 0.000005207535521641704, "num_train_epochs": 9, "warmup_ratio": 0.19989271376076664, "weight_decay": 0.11722343362505638},
+      "SANS_Global_Alogia": {"gradient_accumulation_steps": 16, "learning_rate": 0.00007482085978038718, "num_train_epochs": 11, "warmup_ratio": 0.1472767191241024, "weight_decay": 0.033736005085491926},
+      "SANS_Global_Avolition_Apathy": {"gradient_accumulation_steps": 64, "learning_rate": 0.00005656024890516658, "num_train_epochs": 7, "warmup_ratio": 0.18948480339856177, "weight_decay": 0.14499440140711087},
+      "SANS_Global_Anhedonia_Asociality": {"gradient_accumulation_steps": 64, "learning_rate": 0.000011258029256793087, "num_train_epochs": 4, "warmup_ratio": 0.1187882752771881, "weight_decay": 0.12037832381860432}
+    },
+    "AIMH/mental-longformer-base-4096": {
+      "SAPS_Global_Hals": {"gradient_accumulation_steps": 16, "learning_rate": 0.000014070838509528812, "num_train_epochs": 10, "warmup_ratio": 0.15479686813168145, "weight_decay": 0.014248960663983243},
+      "SAPS_Global_Delusions": {"gradient_accumulation_steps": 16, "learning_rate": 0.00006902515816876023, "num_train_epochs": 4, "warmup_ratio": 0.1599438141067495, "weight_decay": 0.11417243163370061},
+      "SAPS_Global_Positive_Thought_Disorder": {"gradient_accumulation_steps": 16, "learning_rate": 0.00009845905882245095, "num_train_epochs": 11, "warmup_ratio": 0.1404756244940006, "weight_decay": 0.10200800911196865},
+      "SAPS_Global_Bizarre_Behaviour": {"gradient_accumulation_steps": 64, "learning_rate": 0.000056550541778408105, "num_train_epochs": 14, "warmup_ratio": 0.10912555640439453, "weight_decay": 0.11521324888757421},
+      "SANS_Global_Affective_Flattening": {"gradient_accumulation_steps": 16, "learning_rate": 0.00003780508269593425, "num_train_epochs": 3, "warmup_ratio": 0.1923648017524767, "weight_decay": 0.023220755473682103},
+      "SANS_Global_Alogia": {"gradient_accumulation_steps": 32, "learning_rate": 0.00003087229809683309, "num_train_epochs": 11, "warmup_ratio": 0.18126362410616875, "weight_decay": 0.14883716712680897},
+      "SANS_Global_Avolition_Apathy": {"gradient_accumulation_steps": 32, "learning_rate": 0.00005906256638807509, "num_train_epochs": 14, "warmup_ratio": 0.10294486692349533, "weight_decay": 0.10990423044576209},
+      "SANS_Global_Anhedonia_Asociality": {"gradient_accumulation_steps": 32, "learning_rate": 0.00003646912717609059, "num_train_epochs": 12, "warmup_ratio": 0.17579684550667615, "weight_decay": 0.024469479075905534}
+    },
+    "google/bigbird-roberta-large": {
+      "SAPS_Global_Hals": {"gradient_accumulation_steps": 32, "learning_rate": 0.000030544838118229404, "num_train_epochs": 10, "warmup_ratio": 0.13063819073832655, "weight_decay": 0.03776103522617315},
+      "SAPS_Global_Delusions": {"gradient_accumulation_steps": 32, "learning_rate": 0.000019465483819041397, "num_train_epochs": 15, "warmup_ratio": 0.11941635771407395, "weight_decay": 0.05491714662338691},
+      "SAPS_Global_Positive_Thought_Disorder": {"gradient_accumulation_steps": 16, "learning_rate": 0.000031364151839269124, "num_train_epochs": 8, "warmup_ratio": 0.10085218657948569, "weight_decay": 0.08636367711122639},
+      "SAPS_Global_Bizarre_Behaviour": {"gradient_accumulation_steps": 16, "learning_rate": 0.000029183358791364754, "num_train_epochs": 10, "warmup_ratio": 0.13476628863908907, "weight_decay": 0.07257433150672712},
+      "SANS_Global_Affective_Flattening": {"gradient_accumulation_steps": 16, "learning_rate": 0.00006630194034785095, "num_train_epochs": 7, "warmup_ratio": 0.19696772757329048, "weight_decay": 0.03512373557005988},
+      "SANS_Global_Alogia": {"gradient_accumulation_steps": 64, "learning_rate": 0.000047790857826465624, "num_train_epochs": 6, "warmup_ratio": 0.1989257909664606, "weight_decay": 0.04313006597232123},
+      "SANS_Global_Avolition_Apathy": {"gradient_accumulation_steps": 32, "learning_rate": 0.00006456237359793239, "num_train_epochs": 10, "warmup_ratio": 0.1497581324728724, "weight_decay": 0.020367272741269656},
+      "SANS_Global_Anhedonia_Asociality": {"gradient_accumulation_steps": 16, "learning_rate": 0.00006692829876542545, "num_train_epochs": 7, "warmup_ratio": 0.13962108836247109, "weight_decay": 0.029657038561382555}
+    }
+  },
+  "Scheme_2_S1_ValTest": {
+    "mental/mental-bert-base-uncased": {
+      "SAPS_Global_Hals": {"gradient_accumulation_steps": 16, "learning_rate": 0.00008677015699648603, "num_train_epochs": 15, "warmup_ratio": 0.10067209321208116, "weight_decay": 0.10229627633476614},
+      "SAPS_Global_Delusions": {"gradient_accumulation_steps": 16, "learning_rate": 0.00009164089404649748, "num_train_epochs": 15, "warmup_ratio": 0.11465458976767745, "weight_decay": 0.12280173759154628},
+      "SAPS_Global_Positive_Thought_Disorder": {"gradient_accumulation_steps": 16, "learning_rate": 0.00009764045440704427, "num_train_epochs": 8, "warmup_ratio": 0.17497274369864685, "weight_decay": 0.059071041788052454},
+      "SAPS_Global_Bizarre_Behaviour": {"gradient_accumulation_steps": 64, "learning_rate": 0.00001554915798755544, "num_train_epochs": 5, "warmup_ratio": 0.174480112095231, "weight_decay": 0.09094711739775568},
+      "SANS_Global_Affective_Flattening": {"gradient_accumulation_steps": 64, "learning_rate": 0.000005107861351909154, "num_train_epochs": 7, "warmup_ratio": 0.1715637868304538, "weight_decay": 0.027671729580705115},
+      "SANS_Global_Alogia": {"gradient_accumulation_steps": 32, "learning_rate": 0.00003404421492482584, "num_train_epochs": 5, "warmup_ratio": 0.19770619169872541, "weight_decay": 0.04675080898333891},
+      "SANS_Global_Avolition_Apathy": {"gradient_accumulation_steps": 32, "learning_rate": 0.00004956410226187552, "num_train_epochs": 4, "warmup_ratio": 0.18867827898746897, "weight_decay": 0.13605246816259317},
+      "SANS_Global_Anhedonia_Asociality": {"gradient_accumulation_steps": 32, "learning_rate": 0.00001999472007419061, "num_train_epochs": 6, "warmup_ratio": 0.13725314055752605, "weight_decay": 0.14826252016748517}
+    },
+    "AIMH/mental-bert-large-uncased": {
+      "SAPS_Global_Hals": {"gradient_accumulation_steps": 64, "learning_rate": 0.0000678561628469261, "num_train_epochs": 13, "warmup_ratio": 0.14963527372865146, "weight_decay": 0.09304043382187098},
+      "SAPS_Global_Delusions": {"gradient_accumulation_steps": 16, "learning_rate": 0.00005801253433573948, "num_train_epochs": 8, "warmup_ratio": 0.11904158198443181, "weight_decay": 0.05002048804149132},
+      "SAPS_Global_Positive_Thought_Disorder": {"gradient_accumulation_steps": 16, "learning_rate": 0.000055972220133278073, "num_train_epochs": 14, "warmup_ratio": 0.15139996779361037, "weight_decay": 0.03243648015683915},
+      "SAPS_Global_Bizarre_Behaviour": {"gradient_accumulation_steps": 32, "learning_rate": 0.00004951504046783948, "num_train_epochs": 9, "warmup_ratio": 0.10642343996323511, "weight_decay": 0.03891916833368428},
+      "SANS_Global_Affective_Flattening": {"gradient_accumulation_steps": 32, "learning_rate": 0.000021888656467213537, "num_train_epochs": 15, "warmup_ratio": 0.1355224253491123, "weight_decay": 0.09842565902540545},
+      "SANS_Global_Alogia": {"gradient_accumulation_steps": 16, "learning_rate": 0.00007406816916957929, "num_train_epochs": 12, "warmup_ratio": 0.1725706839211375, "weight_decay": 0.10883554074004906},
+      "SANS_Global_Avolition_Apathy": {"gradient_accumulation_steps": 64, "learning_rate": 0.00003338128758326715, "num_train_epochs": 3, "warmup_ratio": 0.19820079528744383, "weight_decay": 0.12033318370648613},
+      "SANS_Global_Anhedonia_Asociality": {"gradient_accumulation_steps": 32, "learning_rate": 0.000015099079666250424, "num_train_epochs": 10, "warmup_ratio": 0.1983939994091558, "weight_decay": 0.016490371870348172}
+    },
+    "UFNLP/gatortron-base": {
+      "SAPS_Global_Hals": {"gradient_accumulation_steps": 64, "learning_rate": 0.0000955554966449989, "num_train_epochs": 3, "warmup_ratio": 0.15381460839199806, "weight_decay": 0.12025116816868106},
+      "SAPS_Global_Delusions": {"gradient_accumulation_steps": 64, "learning_rate": 0.00007684282718450178, "num_train_epochs": 12, "warmup_ratio": 0.14630312346229413, "weight_decay": 0.064080163662174},
+      "SAPS_Global_Positive_Thought_Disorder": {"gradient_accumulation_steps": 16, "learning_rate": 0.00008388814685208374, "num_train_epochs": 11, "warmup_ratio": 0.11353085951737783, "weight_decay": 0.061962962131858534},
+      "SAPS_Global_Bizarre_Behaviour": {"gradient_accumulation_steps": 16, "learning_rate": 0.00006578187268662565, "num_train_epochs": 12, "warmup_ratio": 0.13006756246745976, "weight_decay": 0.0834065945425866},
+      "SANS_Global_Affective_Flattening": {"gradient_accumulation_steps": 32, "learning_rate": 0.000046039876292485315, "num_train_epochs": 7, "warmup_ratio": 0.17497343384398653, "weight_decay": 0.03460023353900142},
+      "SANS_Global_Alogia": {"gradient_accumulation_steps": 64, "learning_rate": 0.00006697836849266331, "num_train_epochs": 5, "warmup_ratio": 0.1538465094293722, "weight_decay": 0.0884698277162077},
+      "SANS_Global_Avolition_Apathy": {"gradient_accumulation_steps": 32, "learning_rate": 0.00005822510200739453, "num_train_epochs": 3, "warmup_ratio": 0.15735227567316973, "weight_decay": 0.020665822757407915},
+      "SANS_Global_Anhedonia_Asociality": {"gradient_accumulation_steps": 64, "learning_rate": 0.0000678443218270084, "num_train_epochs": 4, "warmup_ratio": 0.11222059521102579, "weight_decay": 0.03235654436546223}
+    },
+    "AIMH/mental-longformer-base-4096": {
+      "SAPS_Global_Hals": {"gradient_accumulation_steps": 16, "learning_rate": 0.000026216063762007285, "num_train_epochs": 8, "warmup_ratio": 0.122421363903983, "weight_decay": 0.024480613633222043},
+      "SAPS_Global_Delusions": {"gradient_accumulation_steps": 64, "learning_rate": 0.00008721039886923553, "num_train_epochs": 14, "warmup_ratio": 0.19041750386540499, "weight_decay": 0.1292300031692527},
+      "SAPS_Global_Positive_Thought_Disorder": {"gradient_accumulation_steps": 16, "learning_rate": 0.00004101727952640428, "num_train_epochs": 7, "warmup_ratio": 0.13777382040161612, "weight_decay": 0.08293954350144997},
+      "SAPS_Global_Bizarre_Behaviour": {"gradient_accumulation_steps": 32, "learning_rate": 0.00006037909401356197, "num_train_epochs": 10, "warmup_ratio": 0.17171190899442113, "weight_decay": 0.04097664169129913},
+      "SANS_Global_Affective_Flattening": {"gradient_accumulation_steps": 64, "learning_rate": 0.00004147743221823803, "num_train_epochs": 12, "warmup_ratio": 0.10241103705874761, "weight_decay": 0.038283199138859636},
+      "SANS_Global_Alogia": {"gradient_accumulation_steps": 64, "learning_rate": 0.00002046164505468771, "num_train_epochs": 15, "warmup_ratio": 0.1189940016660232, "weight_decay": 0.060373634663858096},
+      "SANS_Global_Avolition_Apathy": {"gradient_accumulation_steps": 32, "learning_rate": 0.000005711551008076381, "num_train_epochs": 4, "warmup_ratio": 0.18033167226042546, "weight_decay": 0.08929218330762999},
+      "SANS_Global_Anhedonia_Asociality": {"gradient_accumulation_steps": 64, "learning_rate": 0.000006279994698368091, "num_train_epochs": 6, "warmup_ratio": 0.10286042639000073, "weight_decay": 0.07108812700772715}
+    },
+    "google/bigbird-roberta-large": {
+      "SAPS_Global_Hals": {"gradient_accumulation_steps": 32, "learning_rate": 0.000022833435952249143, "num_train_epochs": 8, "warmup_ratio": 0.1885687066295575, "weight_decay": 0.09548002582998107},
+      "SAPS_Global_Delusions": {"gradient_accumulation_steps": 32, "learning_rate": 0.000016459008475868654, "num_train_epochs": 9, "warmup_ratio": 0.19661617104118112, "weight_decay": 0.040377796685408626},
+      "SAPS_Global_Positive_Thought_Disorder": {"gradient_accumulation_steps": 64, "learning_rate": 0.000030964599827640374, "num_train_epochs": 5, "warmup_ratio": 0.14291788398940405, "weight_decay": 0.04823343257863608},
+      "SAPS_Global_Bizarre_Behaviour": {"gradient_accumulation_steps": 16, "learning_rate": 0.000006107352088848425, "num_train_epochs": 12, "warmup_ratio": 0.14917545246253147, "weight_decay": 0.0466877756182417},
+      "SANS_Global_Affective_Flattening": {"gradient_accumulation_steps": 32, "learning_rate": 0.000036105540131357854, "num_train_epochs": 7, "warmup_ratio": 0.11821217056968247, "weight_decay": 0.1286719535488988},
+      "SANS_Global_Alogia": {"gradient_accumulation_steps": 16, "learning_rate": 0.000028423772845421197, "num_train_epochs": 6, "warmup_ratio": 0.12382936992502241, "weight_decay": 0.07001957839394805},
+      "SANS_Global_Avolition_Apathy": {"gradient_accumulation_steps": 32, "learning_rate": 0.00006377662730206631, "num_train_epochs": 13, "warmup_ratio": 0.18159217437012798, "weight_decay": 0.06795812478320244},
+      "SANS_Global_Anhedonia_Asociality": {"gradient_accumulation_steps": 64, "learning_rate": 0.00009724428319543919, "num_train_epochs": 4, "warmup_ratio": 0.13467905121863416, "weight_decay": 0.14470034048624072}
+    }
+  }
+}
+

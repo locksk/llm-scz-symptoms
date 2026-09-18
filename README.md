@@ -38,4 +38,4 @@ Code written by Siobhan Lock, Yuefeng Shi, and Joanne Boisson.
 <br>
 
 ### Acknowledgements
-This work was funded by a PhD studentship from Mental Health Research UK and a MEXA accelerator grant (?). 
+This work was funded by a PhD studentship from Mental Health Research UK and an award from Neuromatch, Inc. as part of the MEXA Generative AI for Mental Health Research Accelerator, funded by Wellcome.

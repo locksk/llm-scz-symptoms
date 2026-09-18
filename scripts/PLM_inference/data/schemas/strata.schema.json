@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Stratum metadata CSV row",
+  "type": "object",
+  "required": ["Study_ID", "sumstrat"],
+  "properties": {
+    "Study_ID": {"type": "string", "minLength": 1},
+    "Summarised_by": {
+      "type": ["string", "null"],
+      "description": "Optional restricted provenance; not propagated to prepared outputs."
+    },
+    "sumstrat": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}
