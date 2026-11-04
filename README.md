@@ -1,4 +1,4 @@
-# Schizophrenia symptom extraction - NLP pipeline
+# Psychotic symptom extraction - NLP pipeline
 This is repository contains all code and data needed to replicate **Extracting Symptoms of Psychotic Disorders from Clinical Notes using Natural Language Processing.**
 
 ### Scripts
